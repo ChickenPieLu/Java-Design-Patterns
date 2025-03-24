@@ -1,11 +1,11 @@
 package decorator;
 
 public class ExtraBallDecorator extends Decorator{
-
+    private IIceCream iceCream;
     private final double cost = 3.0;
 
     public ExtraBallDecorator(IIceCream iceCream){
-        super(iceCream);
+        this.iceCream = iceCream;
     }
 
     @Override

@@ -1,10 +1,11 @@
 package decorator;
 
 public class CookieDecorator extends Decorator{
+    private IIceCream iceCream;
     private final double cost = 1.0;
 
     public CookieDecorator(IIceCream iceCream){
-        super(iceCream);
+        this.iceCream = iceCream;
     }
 
     @Override
