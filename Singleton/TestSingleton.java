@@ -1,4 +1,7 @@
-public class Test extends ATest{
+package singleton;
+import test.ATest;
+
+public class TestSingleton extends ATest{
     public static void main(String[] args) {
         Singleton.getInstance();
         print(Singleton.getInstance().toString());
