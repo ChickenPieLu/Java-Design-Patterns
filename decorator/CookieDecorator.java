@@ -1,5 +1,5 @@
 package decorator;
-
+//concreate decorator
 public class CookieDecorator extends Decorator{
     private IIceCream iceCream;
     private final double cost = 1.0;

@@ -1,5 +1,5 @@
 package decorator;
-
+//Concreate Decorator
 public class ExtraBallDecorator extends Decorator{
     private IIceCream iceCream;
     private final double cost = 3.0;
