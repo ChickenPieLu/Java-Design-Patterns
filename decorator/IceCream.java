@@ -1,6 +1,6 @@
 package decorator;
 //the interface component
-public interface IIceCream {
+public interface IceCream {
     double cost();
     String description();
 }

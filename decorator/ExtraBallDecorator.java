@@ -1,10 +1,10 @@
 package decorator;
 //Concreate Decorator
 public class ExtraBallDecorator extends Decorator{
-    private IIceCream iceCream;
+    private IceCream iceCream;
     private final double cost = 3.0;
 
-    public ExtraBallDecorator(IIceCream iceCream){
+    public ExtraBallDecorator(IceCream iceCream){
         this.iceCream = iceCream;
     }
 

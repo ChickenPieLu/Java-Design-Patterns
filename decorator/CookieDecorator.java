@@ -1,10 +1,10 @@
 package decorator;
 //concreate decorator
 public class CookieDecorator extends Decorator{
-    private IIceCream iceCream;
+    private IceCream iceCream;
     private final double cost = 1.0;
 
-    public CookieDecorator(IIceCream iceCream){
+    public CookieDecorator(IceCream iceCream){
         this.iceCream = iceCream;
     }
 

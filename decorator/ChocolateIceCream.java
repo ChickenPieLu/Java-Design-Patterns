@@ -1,6 +1,6 @@
 package decorator;
 //concreate component
-public class ChocolateIceCream implements IIceCream{
+public class ChocolateIceCream implements IceCream{
     private final double COST = 10.0;
 
     public double cost(){
