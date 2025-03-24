@@ -8,7 +8,7 @@ public class TestFactory extends ATest{
         ConcreatePhone b = A.createPhone();
         ConcreatePhone c = A.createPhone();
         ConcreatePhone d = A.createPhone();
-        print(a.toString()+b.toString()+c.toString()+d.toString());
+        print(a.toString()+"\n"+b.toString()+"\n"+c.toString()+"\n"+d.toString());
     }
     
 }
